@@ -42,5 +42,42 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: "BreeSerif", sans-serif;
+  }
+
+  h1{
+    font-family: "WorkSans", serif;
+  }
+}
+
+@font-face {
+  font-family: "BreeSerif" ;
+  src: url(assets/fonts/Bree_Serif/BreeSerif-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "WorkSans" ;
+  src: url(assets\fonts\Work_Sans\WorkSans-VariableFont_wght.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 9999px;
+  transform: scale(0);
+  animation: ripple-animation 500ms ease-out;
+  background-color: rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(3);
+    opacity: 0;
   }
 }
