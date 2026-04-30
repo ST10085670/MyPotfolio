@@ -11,17 +11,16 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "@tailwindcss/vite": "^4.2.2",
     "babel": "^5.8.38",
     "emailjs": "^5.0.0",
-    "lucide-react": "^0.378.0",
+    "lucide-react": "^0.556.0",
     "node": "^25.9.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwindcss": "^4.2.2"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
+    "@tailwindcss/vite": "^4.2.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
@@ -29,6 +28,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.4.0",
+    "tailwindcss": "^4.2.4",
     "vite": "^8.0.4"
   }
 }
