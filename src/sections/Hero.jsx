@@ -1,12 +1,10 @@
 import { Button } from "../components/Button";
-import {
-  ArrowRight,
-  ChevronDown,
-  GitHub,
-  Linkedin,
-  Twitter,
-  Download,
-} from "lucide-react";
+import ArrowRight from "lucide-react/dist/esm/icons/arrow-right";
+import ChevronDown from "lucide-react/dist/esm/icons/chevron-down";
+import Github from "lucide-react/dist/esm/icons/github";
+import Linkedin from "lucide-react/dist/esm/icons/linkedin";
+import Twitter from "lucide-react/dist/esm/icons/twitter";
+import Download from "lucide-react/dist/esm/icons/download";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
@@ -106,7 +104,7 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: GitHub, href: "#" },
+                { icon: Github, href: "#" },
                 { icon: Linkedin, href: "#" },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (

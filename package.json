@@ -11,12 +11,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "babel": "^5.8.38",
     "emailjs": "^5.0.0",
     "lucide-react": "^0.556.0",
-    "node": "^25.9.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",

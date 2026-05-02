@@ -1,4 +1,5 @@
-import { ArrowUpRight, GitHub } from "lucide-react";
+import ArrowUpRight from "lucide-react/dist/esm/icons/arrow-up-right";
+import Github from "lucide-react/dist/esm/icons/github";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
