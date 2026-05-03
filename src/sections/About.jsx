@@ -49,22 +49,43 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I am an aspiring IT professional with a strong passion 
+                for software and game development. I hold a Higher 
+                Certificate in Information Technology in Support Services 
+                and a Bachelor of Computer and Information Sciences in 
+                Application Development Degree  from Varsity College. 
+                I am actively seeking an opportunity to contribute my
+                skills in a professional environment where I can grow, 
+                learn, and make a meaningful impact.
+
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                My technical ability spans from Kotlin, Java, C#, and C++,
+                along with hands-on experience in React for web development.
+                My passion lies in game development, where I am proficient 
+                in both Unity, Godot engines and Blender, combining creativity
+                with technical skill to bring my ideas to life. Beyond software
+                development, I have successfully undertaken Internet of Technology 
+                (IoT) projects involving ESP microcontrollers, applying C++ to build
+                practical, innovative solutions.
+
               </p>
               <p>
                 When I'm not coding, you'll find me exploring new technologies,
                 contributing to open-source projects, or sharing knowledge with
                 the developer community.
+              </p>
+              <p>
+                I have been driven by curiosity and the desire to solve problems 
+                through technology. My involvement in competitions like Battle 
+                of the Bots and initiatives such as Liter of Light has further 
+                sharpened my teamwork, problem-solving, and communication skills.
+              </p>
+              <p>
+                I am eager to bring my creativity, technical knowledge, and commitment 
+                to excellence into a role where I can contribute to innovative projects. 
+                Whether developing software, building interactive games, or solving complex 
+                problems, I approach every challenge with enthusiasm and dedication.
               </p>
             </div>
 
