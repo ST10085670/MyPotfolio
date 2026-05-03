@@ -3,7 +3,7 @@ import ArrowRight from "lucide-react/dist/esm/icons/arrow-right";
 import ChevronDown from "lucide-react/dist/esm/icons/chevron-down";
 import Github from "lucide-react/dist/esm/icons/github";
 import Linkedin from "lucide-react/dist/esm/icons/linkedin";
-import Twitter from "lucide-react/dist/esm/icons/twitter";
+import Instagram from "lucide-react/dist/esm/icons/instagram";
 import Download from "lucide-react/dist/esm/icons/download";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
@@ -67,7 +67,21 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                C#
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" /> 
+                Kotlin 
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                Python 
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                React 
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                JavaScript
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                Android Studio
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                .NET 
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                TypeScript
               </span>
             </div>
 
@@ -83,8 +97,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
+                Hi, I'm Aphiwe <span className="text-lg font-bold">Tandisizwe</span> Mhotwana — a software developer specializing in
+                C#, Kotlin , Android Studio, Python, React, JavaScript, .NET, and TypeScript. I build scalable, performant web
                 applications that users love.
               </p>
             </div>
@@ -106,7 +120,7 @@ export const Hero = () => {
               {[
                 { icon: Github, href: "#" },
                 { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Instagram, href: "#" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -131,7 +145,7 @@ export const Hero = () => {
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
                   src="/profile-photo.jpg"
-                  alt="Pedro Machado"
+                  alt="Aphiwe Tandisizwe Mhotwana"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
 
@@ -156,31 +170,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
-        <div className="mt-20 animate-fade-in animation-delay-600">
-          <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
-          </p>
-          <div className="relative overflow-hidden">
-            <div
-              className="absolute left-0 top-0 bottom-0 w-32
-             bg-linear-to-r from-background to-transparent z-10"
-            />
-            <div
-              className="absolute right-0 top-0 bottom-0 w-32
-             bg-linear-to-l from-background to-transparent z-10"
-            />
-            <div className="flex animate-marquee">
-              {[...skills, ...skills].map((skill, idx) => (
-                <div key={idx} className="shrink-0 px-8 py-4">
-                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
-                    {skill}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+        
       </div>
 
       <div
