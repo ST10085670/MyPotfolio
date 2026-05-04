@@ -34,7 +34,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src="/space.jpg"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -118,9 +118,9 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Instagram, href: "#" },
+                { icon: Github, href: "https://github.com/ST10085670" },
+                { icon: Linkedin, href: "https://linkedin.com/in/aphiwe-mhotwana-66a9b2216" },
+                { icon: Instagram, href: "https://www.instagram.com/aphiwe_given_/?hl=en" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -144,7 +144,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="\ImgMe2.png"
                   alt="Aphiwe Tandisizwe Mhotwana"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
@@ -160,7 +160,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">3+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>

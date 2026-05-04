@@ -1,52 +1,53 @@
-
-
-const skills = [
-  "React",
-  "Next.js",
-  "TypeScript",
-  "Node.js",
-  "GraphQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Vercel",
-  "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
-  "Git",
-  "GitHub Actions",
-];
-
 export const Skills = () => {
-  return <section id="skills">
-    {/* Skills Section */}
-        <div className="mt-20 animate-fade-in animation-delay-600">
-          <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
-          </p>
-          <div className="relative overflow-hidden">
-            <div
-              className="absolute left-0 top-0 bottom-0 w-32
-             bg-linear-to-r from-background to-transparent z-10"
-            />
-            <div
-              className="absolute right-0 top-0 bottom-0 w-32
-             bg-linear-to-l from-background to-transparent z-10"
-            />
-            <div className="flex animate-marquee">
-              {[...skills, ...skills].map((skill, idx) => (
-                <div key={idx} className="shrink-0 px-8 py-4">
-                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
-                    {skill}
-                  </span>
-                </div>
-              ))}
-            </div>
+  const skills = [
+    { name: "React", level: "Advanced" },
+    { name: "Node.js", level: "Intermediate" },
+    { name: "Docker", level: "Beginner" },
+  ];
+
+  const levelMap = {
+    Beginner: 1,
+    Intermediate: 2,
+    Advanced: 3,
+  };
+
+  const totalCells = 3;
+
+  return (
+    <div className="container py-5">
+      {skills.map((skill, idx) => (
+        
+        <div
+          key={idx}
+          className="d-flex align-items-center mb-3 gap-3"
+        >
+          
+          {/* Skill name */}
+          <span style={{ minWidth: "120px" }}>
+            {skill.name} :
+          </span>
+
+          {/* Cells */}
+          <div className="d-flex gap-2">
+            {Array.from({ length: totalCells }).map((_, i) => (
+              <div
+                key={i}
+                className={
+                  i < levelMap[skill.level]
+                    ? "bg-primary"
+                    : "bg-secondary opacity-25"
+                }
+                style={{
+                  width: "20px",
+                  height: "20px",
+                  borderRadius: "4px",
+                }}
+              />
+            ))}
           </div>
+
         </div>
-  </section>;
+      ))}
+    </div>
+  );
 };
