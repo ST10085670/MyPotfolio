@@ -67,21 +67,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                C#
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" /> 
-                Kotlin 
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Python 
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                React 
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                JavaScript
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Android Studio
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                .NET 
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                TypeScript
+                Junior Software Developer
               </span>
             </div>
 
@@ -110,7 +96,9 @@ export const Hero = () => {
               </Button>
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
-                Download CV
+                <a href="/Aphiwe_Tandisizwe_Mhotwana_CV.pdf" download>
+                  Download CV
+                </a>
               </AnimatedBorderButton>
             </div>
 
