@@ -37,7 +37,7 @@ const projects = [
     title: "BuggyBank : Android Budget Tracker",
     description:
       "A mobile financial tracking application with real-time income and expense management. Integrated Firebase authentication and database services while implementing dashboards, search, and reporting features.",
-    image: "/projects/buggybank.png",
+    image: "/projects/buggybank.jpeg",
     tags: ["Kotlin", "Firebase", "Android", "Realtime DB"],
     link: "#",
     github: "https://github.com/VCNMB-3rd-years/BuggyBank.git",
@@ -55,7 +55,7 @@ const projects = [
     title: "ArgiEnergyConnect : Microservices E-Commerce Platform",
     description:
       "A microservices-based e-commerce system with separate user and product services. Built secure APIs with authentication and RBAC, ensuring scalable and maintainable service communication using Docker.",
-    image: "/projects/argienergy.png",
+    image: "/projects/logo.png",
     tags: ["C#", ".NET 6", "Microservices", "Docker", "REST APIs"],
     link: "#",
     github:
