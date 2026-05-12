@@ -1,15 +1,15 @@
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Github, href: "https://github.com/ST10085670", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/aphiwe-mhotwana-66a9b2216/", label: "LinkedIn" },
+  { icon: Twitter, href: "https://twitter.com/ApGamboii", label: "Twitter" },
 ];
 
 const footerLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
+  { href: "#skills", label: "Skills" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -23,10 +23,10 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              A<span className="text-primary">T</span>M<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Aphiwe Tandisizwe Mhotwana. All rights reserved.
             </p>
           </div>
 

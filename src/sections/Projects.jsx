@@ -8,7 +8,7 @@ const projects = [
     title: "Coinnect : Secure Financial Platform",
     description:
       "A full-stack financial management system featuring secure transaction workflows, API-driven architecture, and robust authentication. Implemented validation, RBAC, and data integrity checks to ensure secure and reliable financial operations.",
-    image: "/projects/coinnect.png",
+    image: "/coinnect.png",
     tags: ["React", "Node.js", "Express", "MongoDB", "Docker"],
     link: "#",
     github: "https://github.com/VCNMB-3rd-years/INSY7314_POE.git",
@@ -17,7 +17,7 @@ const projects = [
     title: "Municipality Issue Reporting System",
     description:
       "A full-stack ASP.NET MVC web application enabling users to log and track municipal service issues. Designed structured database workflows, optimized SQL queries, and ensured data validation for consistent and reliable system performance.",
-    image: "/projects/municipality.png",
+    image: "/municipality.png",
     tags: ["C#", "ASP.NET MVC", "SQL Server", "REST APIs"],
     link: "#",
     github:
@@ -27,7 +27,7 @@ const projects = [
     title: "IoT Smart Device Control System",
     description:
       "An embedded IoT system for remote monitoring and control of smart devices using ESP microcontrollers. Implemented API-based communication and object-oriented design for real-time device interaction and automation.",
-    image: "/projects/iot.png",
+    image: "/iot.png.jpeg",
     tags: ["C++", "ESP32", "IoT", "Networking"],
     link: "#",
     github:
@@ -37,7 +37,7 @@ const projects = [
     title: "BuggyBank : Android Budget Tracker",
     description:
       "A mobile financial tracking application with real-time income and expense management. Integrated Firebase authentication and database services while implementing dashboards, search, and reporting features.",
-    image: "/projects/buggybank.jpeg",
+    image: "/buggybank.jpeg",
     tags: ["Kotlin", "Firebase", "Android", "Realtime DB"],
     link: "#",
     github: "https://github.com/VCNMB-3rd-years/BuggyBank.git",
@@ -46,7 +46,7 @@ const projects = [
     title: "P.A.M : Robotics & Mobile Control System",
     description:
       "A full-stack robotics solution integrating a mobile app, REST API backend, and Raspberry Pi hardware. Enabled real-time communication for camera streaming and remote motor control in an interactive system.",
-    image: "/projects/pam.png",
+    image: "/pam.png",
     tags: ["Kotlin", "REST APIs", "Raspberry Pi", "Jetpack Compose"],
     link: "#",
     github: "https://github.com/Kuhle-MM/PROG7314_POE_PAMZOZO.git",
@@ -55,7 +55,7 @@ const projects = [
     title: "ArgiEnergyConnect : Microservices E-Commerce Platform",
     description:
       "A microservices-based e-commerce system with separate user and product services. Built secure APIs with authentication and RBAC, ensuring scalable and maintainable service communication using Docker.",
-    image: "/projects/logo.png",
+    image: "/logo.png",
     tags: ["C#", ".NET 6", "Microservices", "Docker", "REST APIs"],
     link: "#",
     github:
@@ -106,7 +106,7 @@ export const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   loading="lazy"
-                  className="w-full h-full object-cover blur-sm scale-105 transition-all duration-500 group-hover:blur-0 group-hover:scale-110"
+                  className="w-full h-full object-cover blur-sm scale-101 transition-all duration-500 group-hover:blur-0 group-hover:scale-110"
                 />
                 <div
                   className="absolute inset-0 

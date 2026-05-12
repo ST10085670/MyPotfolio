@@ -6,7 +6,7 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  
+  { href: "#contact", label: "Contact" }
 ];
 
 export const Navbar = () => {
@@ -34,7 +34,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          ATM<span className="text-primary">.</span>
+          A<span className="text-primary">T</span>M<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Nav */}

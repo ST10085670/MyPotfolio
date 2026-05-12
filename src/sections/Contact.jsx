@@ -26,8 +26,8 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Port Elizabeth, South Africa",
-    href: "#",
+    value: "Gqeberha, South Africa",
+    href: "https://maps.app.goo.gl/sm8gJ9ZX6etRtzxL6",
   },
 ];
 
@@ -76,11 +76,12 @@ export const Contact = () => {
       });
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
-      console.error("EmailJS error:", error);
+      console.error("EmailJS error:", err);
+
       setSubmitStatus({
         type: "error",
         message:
-          error.text || "Failed to send message. Please try again later.",
+          err.text || "Failed to send message. Please try again later.",
       });
     } finally {
       setIsLoading(false);
